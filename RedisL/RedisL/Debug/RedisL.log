@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/7/10 10:36:05。
+     1>项目“C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\RedisL\RedisL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt RedisL.cpp
+         RedisL.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\Debug\RedisL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\Debug\RedisL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\Debug\RedisL.lib" /MACHINE:X86 Debug\RedisL.obj
+         Debug\win32fixes.obj
+         Debug\stdafx.obj
+         hiredis.lib(hiredis.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>RedisL.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+     1>hiredis.lib(hiredis.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“hiredis.lib(hiredis.obj)”或在“C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>hiredis.lib(sds.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“hiredis.lib(sds.obj)”或在“C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>hiredis.lib(net.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“hiredis.lib(net.obj)”或在“C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         RedisL.vcxproj -> C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\Debug\RedisL.exe
+     1>已完成生成项目“C:\Users\win7-1\documents\visual studio 2013\Projects\RedisL\RedisL\RedisL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86
